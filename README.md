@@ -9,6 +9,7 @@
 1. สร้างไฟล์ใหม่ภายใต้ Project > src > views ตั้งชื่อไฟล์ว่า SSOLogin.vue
 2. ใส่ Code HTML หรือ Copy จากข้อความด้านล่าง
 
+```
 <template>
   <CRow>
     <CCol>
@@ -16,12 +17,15 @@
     </CCol>
   </CRow>
 </template>
+```
 
 3. เพิ่ม Router เพื่อชี้มาที่ Page นี้ โดยเปิดไฟล์ที่ Path : Project > src > router > index.js แล้วเพิ่ม Code ด้านล่างเข้าไป
 
+```
 {
     path: '/login/sso',
     name: 'SSO Login',
     component: () => import('@/views/SSOLogin.vue'),
 }
+```
 
