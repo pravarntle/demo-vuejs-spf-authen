@@ -1,2 +1,3 @@
-# demo-vuejs-spf-authen
+# How to install
+1. 
 
